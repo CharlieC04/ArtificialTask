@@ -1,0 +1,6 @@
+venv/
+best_params.pkl
+preprocessor.pkl
+trained_model.pkl
+wine_quality_1000.csv
+__pycache__/
