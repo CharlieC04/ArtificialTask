@@ -87,15 +87,3 @@ python main.py predict new_wine_data.csv
 
 3. **Predicted Results**:
    - The `predict` command appends a new column, `predicted_country`, to the input dataset and saves it as `predicted_wine_data.csv`.
-
-## File Structure
-
-```
-.
-├── main.py                  # Main script for tuning, training, and evaluation
-├── predict.py               # Standalone script for predicting on unlabeled data
-├── requirements.txt         # Required dependencies
-├── trained_model.pkl        # Trained model (generated after training)
-├── best_params.pkl          # Best hyperparameters (generated after tuning)
-├── predicted_wine_data.csv  # Output file after evaluation
-```
